@@ -1,3 +1,7 @@
+import random
+from datetime import datetime
+import itertools
+
 class Recommender:
     def __init__(self, name = '', catalog = {}):
         self.name = name

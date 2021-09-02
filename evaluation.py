@@ -1,5 +1,6 @@
 import ast
 import math as mth
+import numpy as np
 
 def compute_hit_ratio_at_k(item, recommendations, k):
     if item in recommendations[:k]:
